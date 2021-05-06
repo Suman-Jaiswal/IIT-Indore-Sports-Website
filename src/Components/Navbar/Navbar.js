@@ -46,9 +46,9 @@ class Navbar extends React.Component {
                     </div>
                 </nav>
                 <ul id={'hamburgerLinks'}>
-                    <li><a href={'/council'}>COUNCIL</a></li>
-                    <li><a href={'/hallOfFame'}>HALL OF FAME</a></li>
-                    <li><a href={'/explore'}>EXPLORE</a></li>
+                    <li><Link to={'/council'}>COUNCIL</Link></li>
+                    <li><Link to={'/hallOfFame'}>HALL OF FAME</Link></li>
+                    <li><Link to={'/explore'}>EXPLORE</Link></li>
                 </ul>
             </div>
         )
